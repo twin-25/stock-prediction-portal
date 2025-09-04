@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 export const Main = () => {
   return (
@@ -7,7 +8,7 @@ export const Main = () => {
         <div className='p-5 text-center bg-light-dark rounded'>
           <h1 className='text-light'>Stock Prediction applicationn</h1>
           <p className='text-light lead'>This stock prediction application utilizes machine learning</p>
-          <a href="" className='btn btn-outline-info' >Login</a>
+          <Button text = "Login" class="btn-outline-info" />
 
         </div>
 
